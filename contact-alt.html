@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./assets/favicon/favicon.ico" type="image/x-icon" />
+    
+    <!-- Map CSS -->
+    <link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.css" />
+    
+    <!-- Libs CSS -->
+    <link rel="stylesheet" href="./assets/css/libs.bundle.css" />
+    
+    <!-- Theme CSS -->
+    <link rel="stylesheet" href="./assets/css/theme.bundle.css" />
+    
+    <!-- Title -->
+    <title>GRAB</title>
+  </head>
+  <body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container">
+    
+        <!-- Brand -->
+        <a class="navbar-brand" href="./index.html">
+          <img src="./assets/img/Grab_Logo_Black.svg" class="navbar-brand-img" alt="...">
+        </a>
+    
+        <!-- Toggler -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <!-- Collapse -->
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+    
+          <!-- Toggler -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fe fe-x"></i>
+          </button>
+    
+          <!-- Navigation -->
+          <ul class="navbar-nav ms-auto">
+            <!-- Portfolio -->
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="./portfolio-grid-rows.html" aria-haspopup="true" aria-expanded="false">
+                Portfolio
+              </a>
+            </li>
+            <!-- Services -->
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="./help-center.html" aria-haspopup="true" aria-expanded="false">
+                Services
+              </a>
+            </li>
+            <!-- About Us -->
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="./about.html" aria-haspopup="true" aria-expanded="false">
+                About Us
+              </a>
+            </li>
+            <!-- Contact -->
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="./contact-alt.html" aria-haspopup="true" aria-expanded="false">
+                Contact
+              </a>
+            </li>
+            <!-- Blog -->
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#" aria-haspopup="true" aria-expanded="false">
+                Blog
+              </a>
+            </li>
+          </ul>
+    
+          <!-- Button -->
+          <a class="navbar-btn btn btn-sm btn-primary lift ms-auto" href="./contact-alt.html" target="_blank">
+            Get Started
+            <!-- Get Quote -->
+          </a>
+    
+        </div>
+    
+      </div>
+    </nav>
+
+    <!-- CONTENT -->
+    <section>
+
+      <!-- Content -->
+      <div class="container d-flex flex-column">
+        <div class="row align-items-center justify-content-between gx-0 min-vh-100">
+          <div class="col-12 col-md-5 align-self-stretch">
+
+            <!-- Image (mobile) -->
+            <img src="assets/img/portfolio/aerial/home_aerial_14.jpg" class="d-md-none img-cover" alt="...">
+
+            <!-- Image -->
+            <div class="d-none d-md-block vw-50 h-100 float-end bg-cover" style="background-image: url(assets/img/portfolio/aerial/home_aerial_14.jpg);"></div>
+
+          </div>
+          <div class="col-12 col-md-6 py-8 py-md-11">
+
+            <!-- Heading -->
+            <h2 class="fw-bold text-center mb-2">
+              Are you ready, because we are!
+            </h2>
+
+            <!-- Text -->
+            <p class="fs-lg text-center text-muted mb-0">
+              Submit a request and we'll get back to you as soon as possible, prepared and ready to get started on your project!
+            </p>
+
+            <!-- Divider -->
+            <hr class="hr-sm my-6 my-md-8 mx-auto bg-gray-300">
+
+            <!-- Form -->
+            <form>
+              <div class="col">
+                <div class="row-12">
+                  <div class="form-group mb-5">
+
+                    <!-- Label -->
+                    <label class="form-label" for="contactName">
+                      Full name
+                    </label>
+
+                    <!-- Input -->
+                    <input class="form-control" id="contactName" type="text" placeholder="Full name">
+
+                  </div>
+                </div>
+                <div class="row-12">
+                  <div class="form-group mb-5">
+
+                    <!-- Label -->
+                    <label class="form-label" for="contactEmail">
+                      Email
+                    </label>
+
+                    <!-- Input -->
+                    <input class="form-control" id="contactEmail" type="email" placeholder="hello@domain.com">
+
+                  </div>
+                </div>
+                <div class="row-12">
+                  <div class="form-group mb-5">
+
+                    <!-- Label -->
+                    <label class="form-label" for="contactPhone">
+                      Phone number
+                    </label>
+
+                    <!-- Input -->
+                    <input class="form-control" id="contactPhone" type="tel" placeholder="(999)-999-999">
+
+                  </div>
+                </div>
+              </div> <!-- / .row -->
+              <div class="row">
+                <div class="col-12">
+                  <div class="form-group mb-7 mb-md-9">
+
+                    <!-- Label -->
+                    <label class="form-label" for="contactMessage">
+                      What can we help you with?
+                    </label>
+
+                    <!-- Input -->
+                    <textarea class="form-control" id="contactMessage" rows="5" placeholder="Tell us what we can help you with!"></textarea>
+
+                  </div>
+                </div>
+              </div> <!-- / .row -->
+              <div class="row justify-content-center">
+                <div class="col-auto">
+
+                  <!-- Submit -->
+                  <button type="submit" class="btn btn-primary lift" onclick="sendEmail(); reset(); return false;">
+                    Submit request
+                  </button>
+
+                </div>
+              </div> <!-- / .row -->
+            </form>
+
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </section>
+
+          </div>
+        </div> <!-- / .row -->
+      </div>
+    </section>
+
+    <!-- JAVASCRIPT -->
+    <!-- Map JS -->
+    <script src='https://api.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.js'></script>
+    
+    <!-- Vendor JS -->
+    <script src="./assets/js/vendor.bundle.js"></script>
+    
+    <!-- Theme JS -->
+    <script src="./assets/js/theme.bundle.js"></script>
+
+    <script src="https://smtpjs.com/v3/smtp.js">
+    </script>
+    <script> function sendEmail(){
+    Email.send({
+    SecureToken : "5cd7cb4f-22b1-4ce7-b1ae-39f3d5338ec4",
+    To : 'aeroguardian@modernaerialdronephotography.com',
+    From : 'inquiry@modernaerialdronephotography.com',
+    Subject : "New Contact Form Enquiry",
+    Body : "Name: "+ document.getElementById("contactName").value
+            + "<br> Email: " + document.getElementById("contactEmail").value
+            + "<br> Phone no: " + document.getElementById("contactPhone").value
+            + "<br> Message: " + document.getElementById("contactMessage").value
+  }).then(message => alert("Form Submitted, Thank you!"));      
+    }
+    </script>
+
+  </body>
+</html>

@@ -1,0 +1,620 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./assets/favicon/favicon.ico" type="image/x-icon" />
+    
+    <!-- Map CSS -->
+    <link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.css" />
+    
+    <!-- Libs CSS -->
+    <link rel="stylesheet" href="./assets/css/libs.bundle.css" />
+    
+    <!-- Theme CSS -->
+    <link rel="stylesheet" href="./assets/css/theme.bundle.css" />
+    
+    <!-- Title -->
+    <title>GRAB</title>
+  </head>
+  <body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container">
+    
+        <!-- Brand -->
+        <a class="navbar-brand" href="./index.html">
+          <img src="./assets/img/Grab_Logo.svg" class="navbar-brand-img" alt="...">
+        </a>
+    
+        <!-- Toggler -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <!-- Collapse -->
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+    
+          <!-- Toggler -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fe fe-x"></i>
+          </button>
+    
+          <!-- Navigation -->
+          <ul class="navbar-nav ms-auto">
+            <!-- Portfolio -->
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="./portfolio-masonry.html" aria-haspopup="true" aria-expanded="false">
+                Portfolio
+              </a>
+            </li>
+            <!-- Services -->
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="./help-center.html" aria-haspopup="true" aria-expanded="false">
+                Services
+              </a>
+            </li>
+            <!-- About Us -->
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="./about.html" aria-haspopup="true" aria-expanded="false">
+                About Us
+              </a>
+            </li>
+            <!-- Contact -->
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="./contact-alt.html" aria-haspopup="true" aria-expanded="false">
+                Contact
+              </a>
+            </li>
+            <!-- Blog -->
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#" aria-haspopup="true" aria-expanded="false">
+                Blog
+              </a>
+            </li>
+          </ul>
+    
+          <!-- Button -->
+          <a class="navbar-btn btn btn-sm btn-primary lift ms-auto" href="./contact-alt.html" target="_blank">
+            Get Started
+            <!-- Get Quote -->
+          </a>
+    
+        </div>
+    
+      </div>
+    </nav>
+
+    <!-- WELCOME -->
+    <section data-jarallax data-speed=".8" class="pt-12 pt-md-14 pb-12 pb-md-15 overlay overlay-black overlay-60 bg-cover jarallax" style="margin-top: -87px; background-image: url(assets/img/portfolio/aerial/home_aerial_14.jpg);">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-10 col-lg-7 text-center">
+
+            <!-- Headin -->
+            <h1 class="display-2 fw-bold text-white">
+              Our Work.
+            </h1>
+
+            <!-- Text -->
+            <p class="lead text-white-75 mb-4">
+              Here are some of our finest and most stunning work we have had the honor to work on and produce!
+            </p>
+
+            <!-- Badges
+            <nav class="nav justify-content-center">
+              <a class="badge rounded-pill bg-white-soft active me-1 mb-1" href="#" data-bs-toggle="pill" data-filter="*" data-bs-target="#portfolio">
+                <span class="h6 text-uppercase">Primary</span>
+              </a>
+              <a class="badge rounded-pill bg-white-soft me-1 mb-1" href="#" data-bs-toggle="pill" data-filter=".product" data-bs-target="#portfolio">
+                <span class="h6 text-uppercase">Product</span>
+              </a>
+              <a class="badge rounded-pill bg-white-soft me-1 mb-1" href="#" data-bs-toggle="pill" data-filter=".ux" data-bs-target="#portfolio">
+                <span class="h6 text-uppercase">UX</span>
+              </a>
+              <a class="badge rounded-pill bg-white-soft me-1 mb-1" href="#" data-bs-toggle="pill" data-filter=".resources" data-bs-target="#portfolio">
+                <span class="h6 text-uppercase">Resources</span>
+              </a>
+            </nav> -->
+
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </section>
+
+    <!-- SHAPE -->
+    <div class="position-relative">
+      <div class="shape shape-bottom shape-fluid-x text-light">
+        <svg viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 48h2880V0h-720C1442.5 52 720 0 720 0H0v48z" fill="currentColor"/></svg>      </div>
+    </div>
+
+    <!-- CONTENT -->
+    <section class="py-8 py-md-11 mt-n10 mt-md-n14">
+      <div class="container">
+        <div class="row" id="portfolio" data-isotope='{"layoutMode": "masonry"}'>
+          
+          <!-- Card 1-->
+          <div class="col-12 col-md-4 resources">
+
+            <!-- Card -->
+            <a class="card shadow-light-lg mb-7" href="#!">
+
+              <!-- Image -->
+              <div class="card-zoom">
+                <img class="card-img" src="assets/img/portfolio/aerial/home_aerial_01.jpg" alt="...">
+              </div>
+
+              <!-- Overlay -->
+              <div class="card-img-overlay card-img-overlay-hover">
+                <div class="card-body bg-white">
+
+                  <!-- Shape -->
+                  <div class="shape shape-bottom-100 shape-fluid-x text-white">
+                    <svg viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 48h2880V0h-720C1442.5 52 720 0 720 0H0v48z" fill="currentColor"/></svg>                  </div>
+
+                  <!-- Preheading -->
+                  <h6 class="text-uppercase mb-1 text-muted">Real Estate Photography</h6>
+
+                  <!-- Heading -->
+                  <h4 class="mb-0">Drone Shot <br> Jun 24, 2023</h4>
+
+                </div>
+              </div>
+
+            </a>
+
+          </div>
+          
+          <!-- Card 2-->
+          <div class="col-12 col-md-4 product">
+
+            <!-- Card -->
+            <a class="card shadow-light-lg mb-7" href="#!">
+
+              <!-- Image -->
+              <div class="card-zoom">
+                <img class="card-img" src="assets/img/portfolio/aerial/home_aerial_02.jpg" alt="...">
+              </div>
+
+              <!-- Overlay -->
+              <div class="card-img-overlay card-img-overlay-hover">
+                <div class="card-body bg-white">
+
+                  <!-- Shape -->
+                  <div class="shape shape-bottom-100 shape-fluid-x text-white">
+                    <svg viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 48h2880V0h-720C1442.5 52 720 0 720 0H0v48z" fill="currentColor"/></svg>                  </div>
+
+                  <!-- Preheading -->
+                  <h6 class="text-uppercase mb-1 text-muted">Real Estate Photography</h6>
+
+                  <!-- Heading -->
+                  <h4 class="mb-0">Drone Shot <br> Aug 13, 2023</h4>
+
+                </div>
+              </div>
+
+            </a>
+
+          </div>
+          
+          <!-- Card 3-->
+          <div class="col-12 col-md-4 resources">
+
+            <!-- Card -->
+            <a class="card shadow-light-lg mb-7" href="#!">
+
+              <!-- Image -->
+              <div class="card-zoom">
+                <img class="card-img" src="assets/img/portfolio/aerial/home_aerial_12.jpg" alt="...">
+              </div>
+
+              <!-- Overlay -->
+              <div class="card-img-overlay card-img-overlay-hover">
+                <div class="card-body bg-white">
+
+                  <!-- Shape -->
+                  <div class="shape shape-bottom-100 shape-fluid-x text-white">
+                    <svg viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 48h2880V0h-720C1442.5 52 720 0 720 0H0v48z" fill="currentColor"/></svg>                  </div>
+
+                  <!-- Preheading -->
+                  <h6 class="text-uppercase mb-1 text-muted">Real Estate Photography</h6>
+
+                  <!-- Heading -->
+                  <h4 class="mb-0">Ground Shot <br> Mar 03, 2023</h4>
+
+                </div>
+              </div>
+
+            </a>
+
+          </div>
+          
+          <!-- Card 4-->
+          <div class="col-12 col-md-4 ux">
+
+            <!-- Card -->
+            <a class="card shadow-light-lg mb-7" href="#!">
+
+              <!-- Image -->
+              <div class="card-zoom">
+                <img class="card-img" src="assets/img/portfolio/aerial/home_aerial_10.jpg" alt="...">
+              </div>
+
+              <!-- Overlay -->
+              <div class="card-img-overlay card-img-overlay-hover">
+                <div class="card-body bg-white">
+
+                  <!-- Shape -->
+                  <div class="shape shape-bottom-100 shape-fluid-x text-white">
+                    <svg viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 48h2880V0h-720C1442.5 52 720 0 720 0H0v48z" fill="currentColor"/></svg>                  </div>
+
+                  <!-- Preheading -->
+                  <h6 class="text-uppercase mb-1 text-muted">Real Estate Photography</h6>
+
+                  <!-- Heading -->
+                  <h4 class="mb-0">Drone Shot <br> Jun 09, 2023</h4>
+
+                </div>
+              </div>
+
+            </a>
+          
+          </div>
+          
+          <!-- Card 5-->
+          <div class="col-12 col-md-4 ux">
+
+            <!-- Card -->
+            <a class="card shadow-light-lg mb-7" href="#!">
+
+              <!-- Image -->
+              <div class="card-zoom">
+                <img class="card-img" src="assets/img/portfolio/aerial/home_aerial_04.jpg" alt="...">
+              </div>
+
+              <!-- Overlay -->
+              <div class="card-img-overlay card-img-overlay-hover">
+                <div class="card-body bg-white">
+
+                  <!-- Shape -->
+                  <div class="shape shape-bottom-100 shape-fluid-x text-white">
+                    <svg viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 48h2880V0h-720C1442.5 52 720 0 720 0H0v48z" fill="currentColor"/></svg>                  </div>
+
+                  <!-- Preheading -->
+                  <h6 class="text-uppercase mb-1 text-muted">Real Estate Photography</h6>
+
+                  <!-- Heading -->
+                  <h4 class="mb-0">Drone Shot <br> Feb 13, 2023</h4>
+
+                </div>
+              </div>
+
+            </a>
+
+          </div>
+          
+          <!-- Card 6-->
+          <div class="col-12 col-md-4 product">
+
+            <!-- Card -->
+            <a class="card shadow-light-lg mb-7" href="#!">
+
+              <!-- Image -->
+              <div class="card-zoom">
+                <img class="card-img" src="assets/img/portfolio/aerial/home_aerial_05.jpg" alt="...">
+              </div>
+
+              <!-- Overlay -->
+              <div class="card-img-overlay card-img-overlay-hover">
+                <div class="card-body bg-white">
+
+                  <!-- Shape -->
+                  <div class="shape shape-bottom-100 shape-fluid-x text-white">
+                    <svg viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 48h2880V0h-720C1442.5 52 720 0 720 0H0v48z" fill="currentColor"/></svg>                  </div>
+
+                  <!-- Preheading -->
+                  <h6 class="text-uppercase mb-1 text-muted">Real Estate Photography</h6>
+
+                  <!-- Heading -->
+                  <h4 class="mb-0">Drone Shot <br> Feb 23, 2023</h4>
+
+                </div>
+              </div>
+
+            </a>
+
+          </div>
+          
+          <!-- Card 7-->
+          <div class="col-12 col-md-4 product">
+
+            <!-- Card -->
+            <a class="card shadow-light-lg mb-7" href="#!">
+
+              <!-- Image -->
+              <div class="card-zoom">
+                <img class="card-img" src="assets/img/portfolio/aerial/home_aerial_13.jpg" alt="...">
+              </div>
+
+              <!-- Overlay -->
+              <div class="card-img-overlay card-img-overlay-hover">
+                <div class="card-body bg-white">
+
+                  <!-- Shape -->
+                  <div class="shape shape-bottom-100 shape-fluid-x text-white">
+                    <svg viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 48h2880V0h-720C1442.5 52 720 0 720 0H0v48z" fill="currentColor"/></svg>                  </div>
+
+                  <!-- Preheading -->
+                  <h6 class="text-uppercase mb-1 text-muted">Real Estate Photography</h6>
+
+                  <!-- Heading -->
+                  <h4 class="mb-0">Drone Shot <br> Mar 12, 2023</h4>
+
+                </div>
+              </div>
+
+            </a>
+
+          </div>
+          
+          <!-- Card 8-->
+          <div class="col-12 col-md-4 ux">
+
+            <!-- Card -->
+            <a class="card shadow-light-lg mb-7" href="#!">
+
+              <!-- Image -->
+              <div class="card-zoom">
+                <img class="card-img" src="assets/img/portfolio/aerial/home_aerial_07.jpg" alt="...">
+              </div>
+
+              <!-- Overlay -->
+              <div class="card-img-overlay card-img-overlay-hover">
+                <div class="card-body bg-white">
+
+                  <!-- Shape -->
+                  <div class="shape shape-bottom-100 shape-fluid-x text-white">
+                    <svg viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 48h2880V0h-720C1442.5 52 720 0 720 0H0v48z" fill="currentColor"/></svg>                  </div>
+
+                  <!-- Preheading -->
+                  <h6 class="text-uppercase mb-1 text-muted">Real Estate Photography</h6>
+
+                  <!-- Heading -->
+                  <h4 class="mb-0">Drone Shot <br> Jan 19, 2023</h4>
+
+                </div>
+              </div>
+
+            </a>
+
+          </div>
+         
+          <!-- Card 9-->
+          <div class="col-12 col-md-4 ux">
+
+            <!-- Card -->
+            <a class="card shadow-light-lg mb-7" href="#!">
+
+              <!-- Image -->
+              <div class="card-zoom">
+                <img class="card-img" src="assets/img/portfolio/aerial/home_aerial_08.jpg" alt="...">
+              </div>
+
+              <!-- Overlay -->
+              <div class="card-img-overlay card-img-overlay-hover">
+                <div class="card-body bg-white">
+
+                  <!-- Shape -->
+                  <div class="shape shape-bottom-100 shape-fluid-x text-white">
+                    <svg viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 48h2880V0h-720C1442.5 52 720 0 720 0H0v48z" fill="currentColor"/></svg>                  </div>
+
+                  <!-- Preheading -->
+                  <h6 class="text-uppercase mb-1 text-muted">Real Estate Photography</h6>
+
+                  <!-- Heading -->
+                  <h4 class="mb-0">Drone Shot <br> Apr 11, 2023</h4>
+
+                </div>
+              </div>
+
+            </a>
+
+          </div>
+
+          <!-- Card 10-->
+          <div class="col-12 col-md-4 ux">
+
+                      <!-- Card -->
+                      <a class="card shadow-light-lg mb-7" href="#!">
+          
+                        <!-- Image -->
+                        <div class="card-zoom">
+                          <img class="card-img" src="assets/img/portfolio/aerial/areial-1.png" alt="...">
+                        </div>
+          
+                        <!-- Overlay -->
+                        <div class="card-img-overlay card-img-overlay-hover">
+                          <div class="card-body bg-white">
+          
+                            <!-- Shape -->
+                            <div class="shape shape-bottom-100 shape-fluid-x text-white">
+                              <svg viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 48h2880V0h-720C1442.5 52 720 0 720 0H0v48z" fill="currentColor"/></svg>                  </div>
+          
+                            <!-- Preheading -->
+                            <h6 class="text-uppercase mb-1 text-muted">Real Estate Photography</h6>
+          
+                            <!-- Heading -->
+                            <h4 class="mb-0">Drone Shot <br> Apr 11, 2023</h4>
+          
+                          </div>
+                        </div>
+          
+                      </a>
+          
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SHAPE -->
+    <div class="position-relative">
+      <div class="shape shape-bottom shape-fluid-x text-gray-200">
+        <svg viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 48h2880V0h-720C1442.5 52 720 0 720 0H0v48z" fill="currentColor"/></svg>      </div>
+    </div>
+
+    <!-- CTA -->
+    <section class="pt-6 pt-md-8 bg-gray-200">
+      <div class="container pb-6 pb-md-8 border-bottom border-gray-300">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md">
+
+            <!-- Heading -->
+            <h3 class="mb-1 fw-bold">
+              Are you ready, because we are!
+            </h3>
+
+            <!-- Text -->
+            <p class="fs-lg text-muted mb-6 mb-md-0">
+              Submit a request and we'll get back to you as soon as possible.
+            </p>
+
+          </div>
+          <div class="col-auto justify-content-center">
+
+           <!-- Button -->
+           <a class=" btn btn-primary lift ms-auto" href="./contact-alt.html" target="_blank">
+            Get Started
+          </a>
+
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="py-8 py-md-11 bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-4 col-lg-3">
+    
+            <!-- Brand -->
+            <img src="./assets/img/Grab_Logo_Black.svg" alt="..." class="footer-brand img-fluid mb-2">
+    
+            <!-- Text -->
+            <p class="text-gray-700 mb-2">
+              Elevate Your Perspective.
+            </p>
+    
+            <!-- Social -->
+            <ul class="list-unstyled list-inline list-social mb-6 mb-md-0">
+              <li class="list-inline-item list-social-item me-3">
+                <a href="#!" class="text-decoration-none">
+                  <img src="./assets/img/icons/social/instagram.svg" class="list-social-icon" alt="...">
+                </a>
+              </li>
+              <li class="list-inline-item list-social-item me-3">
+                <a href="#!" class="text-decoration-none">
+                  <img src="./assets/img/icons/social/facebook.svg" class="list-social-icon" alt="...">
+                </a>
+              </li>
+              <li class="list-inline-item list-social-item me-3">
+                <a href="#!" class="text-decoration-none">
+                  <img src="./assets/img/icons/social/twitter.svg" class="list-social-icon" alt="...">
+                </a>
+              </li>
+              <li class="list-inline-item list-social-item">
+                <a href="#!" class="text-decoration-none">
+                  <img src="./assets/img/icons/social/pinterest.svg" class="list-social-icon" alt="...">
+                </a>
+              </li>
+            </ul>
+    
+          </div>
+          <div class="col-6 col-md-4 col-lg-2">
+    
+            <!-- Heading -->
+            <h6 class="fw-bold text-uppercase text-gray-700">
+              PAGES
+            </h6>
+    
+            <!-- List -->
+            <ul class="list-unstyled text-muted mb-6 mb-md-8 mb-lg-0">
+              <li class="mb-3">
+                <a href="./portfolio-grid-rows.html" class="text-reset">
+                  Portfolio
+                </a>
+              </li>
+              <li class="mb-3">
+                <a href="./help-center.html" class="text-reset">
+                  Services
+                </a>
+              </li>
+              <li class="mb-3">
+                <a href="./about.html" class="text-reset">
+                  About Us
+                </a>
+              </li>
+              <li class="mb-3">
+                <a href="./contact-alt.html" class="text-reset">
+                  Contact
+                </a>
+              </li>
+              <li>
+                <a href="#!" class="text-reset">
+                  Blog
+                </a>
+              </li>
+            </ul>
+    
+          </div>
+          <div class="col-6 col-md-4 col-lg-2">
+    
+            <!-- Heading -->
+            <h6 class="fw-bold text-uppercase text-gray-700">
+              Educational Resources
+            </h6>
+    
+            <!-- List -->
+            <ul class="list-unstyled text-muted mb-6 mb-md-8 mb-lg-0">
+              <li class="mb-3">
+                <a href="#!" class="text-reset">
+                  About Aerial Photography
+                </a>
+              </li>
+              <li class="mb-3">
+                <a href="#!" class="text-reset">
+                  How To Prepare
+                </a>
+              </li>
+              <li class="mb-3">
+                <a href="#!" class="text-reset">
+                  Benefits of using drones in real estate
+                </a>
+              </li>
+              <li>
+                <a href="#!" class="text-reset">
+                  FAQs
+                </a>
+              </li>
+            </ul>
+    
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </footer>
+
+    <!-- JAVASCRIPT -->
+    <!-- Map JS -->
+    <script src='https://api.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.js'></script>
+    
+    <!-- Vendor JS -->
+    <script src="./assets/js/vendor.bundle.js"></script>
+    
+    <!-- Theme JS -->
+    <script src="./assets/js/theme.bundle.js"></script>
+
+  </body>
+</html>

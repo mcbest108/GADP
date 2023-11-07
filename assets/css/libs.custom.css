@@ -1,0 +1,63 @@
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  background-color: black;
+}
+
+/* video background */
+#background-video {
+  height: 100vh;
+  width: 100vw;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+/* page content */
+/* h1, h2 {
+  color: white;
+  font-family: Trebuchet MS;
+  font-weight: bold;
+  text-align: center;
+} */
+
+.headline {
+  color: aliceblue;
+}
+
+.headlineTop {
+  margin: 0;
+  
+}
+
+.brandTitle {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 500%;
+  color: aliceblue;
+}
+
+.process {
+  border-radius: 30px;
+background-color: #ffffffdf;
+padding: 80px;
+}
+
+.statement{
+  font-size: large;
+}
+
+
+@media (max-width: 1px) {
+    #background-video { display:none; }
+    body {
+      background: url("assets/video/production_id_4770380 (1080p).mp4") no-repeat;
+      background-size: cover;
+    }
+}

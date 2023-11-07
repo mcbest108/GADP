@@ -1,0 +1,800 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./assets/favicon/favicon.ico" type="image/x-icon" />
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <!-- Map CSS -->
+    <link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.css" />
+    
+    <!-- Libs CSS -->
+    <link rel="stylesheet" href="./assets/css/libs.custom.css" />
+    
+    <!-- Theme CSS -->
+    <link rel="stylesheet" href="./assets/css/theme.bundle.css" />
+    
+    <!-- Title -->
+    <title>GADP</title>
+  </head>
+  <body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <div class="container">
+    
+        <!-- Brand -->
+        <a class="navbar-brand" href="./index.html">
+          <img src="./assets/img/Grab_Logo.svg" class="navbar-brand-img" alt="...">
+        </a>
+    
+        <!-- Toggler -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <!-- Collapse -->
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+    
+          <!-- Toggler -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fe fe-x"></i>
+          </button>
+    
+          <!-- Navigation -->
+          <ul class="navbar-nav ms-auto">
+            <!-- Portfolio -->
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="./portfolio-masonry.html" aria-haspopup="true" aria-expanded="false">
+                Portfolio
+              </a>
+            </li>
+            <!-- Services -->
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="./help-center.html" aria-haspopup="true" aria-expanded="false">
+                Services
+              </a>
+            </li>
+            <!-- About Us -->
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="./about.html" aria-haspopup="true" aria-expanded="false">
+                About Us
+              </a>
+            </li>
+            <!-- Contact -->
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="./contact-alt.html" aria-haspopup="true" aria-expanded="false">
+                Contact
+              </a>
+            </li>
+            <!-- Blog -->
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#" aria-haspopup="true" aria-expanded="false">
+                Blog
+              </a>
+            </li>
+          </ul>
+    
+          <!-- Button -->
+          <a class="navbar-btn btn btn-sm btn-primary lift ms-auto" href="./contact-alt.html" target="_blank">
+            Get Started
+            <!-- Get Quote -->
+          </a>
+    
+        </div>
+    
+      </div>
+    </nav>
+
+    <!-- HEADER -->
+    <section class="overlay overlay-dark overlay-40" data-jarallax data-speed=".8">
+      <video id="background-video" autoplay loop muted poster="assets/video/production_id_4770380 (1080p).mp4">
+        <source src="assets/video/production_id_4770380 (1080p).mp4" type="video/mp4">
+      </video>
+      <div class="container d-flex flex-column">
+        <div class="row align-items-center justify-content-center min-vh-100 py-8 py-md-11">
+          <div class="col-12 col-md-8 col-lg-6 mt-auto text-center">
+
+            <!-- Brand -->
+            <div class="headline">
+              <!-- <h3 class="headlineTop">Elevate Your Perspective with Breathtaking Aerial Photography from</h3> -->
+              <h1 class="brandTitle">GADP </h1>
+            </div>
+              
+
+            <!-- Heading -->
+            <p class="lead text-white">
+              <!-- Capturing Stunning Residential Properties <br> from a Unique Vantage Point -->
+              <span class="" data-typed='{"strings": ["Elevate Your Perspective with Breathtaking Aerial Photography", "Capturing Stunning Residential Properties from a Unique Vantage Point" ]}'></span>
+            </p>
+
+          </div>
+          <div class="col-12 mt-auto text-center">
+
+            <!-- Button -->
+            <a class="btn btn-white btn-rounded-circle shadow" data-scroll='{"offset": 0}' href="#sectionTwo">
+              <i class="fe fe-arrow-down"></i>
+            </a>
+
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </section>
+
+    <!-- IMAGE -->
+    <section class="min-vh-100" data-jarallax data-speed=".8" style="background-image: url(assets/img/portfolio/aerial/home_aerial_03.jpg)"></section>
+
+    <!-- IMAGE -->
+    <a class="d-block text-decoration-none overlay overlay-dark overlay-30" id="sectionTwo" data-jarallax data-speed=".8" style="background-image: url(assets/img/portfolio/aerial/home_aerial_06.jpg)">
+      <div class="container d-flex flex-column">
+        <div class="row align-items-center min-vh-100 py-8 py-md-11">
+          <div class="col-12">
+            <!-- Subheading -->
+            <h2 class="mb-0 fw-bold text-center text-uppercase text-white letter-spacing-lg">
+              See your property from <br> views you have never seen before
+            </h2>
+
+          </div>
+        </div>
+      </div>
+    </a>
+
+    <!-- IMAGE -->
+    <section class="min-vh-100" data-jarallax data-speed=".8" style="background-image: url(assets/img/portfolio/aerial/drone.jpg)"></section>
+
+    <!-- IMAGE -->
+    <section class="min-vh-100" data-jarallax data-speed=".8" style="background-image: url(assets/img/portfolio/aerial/home_aerial_02.jpg)"></section>
+
+    <!-- PROCESS -->
+    <section class="overlay overlay-dark overlay-20">
+      <div class="container d-flex flex-column">
+        <div class="row align-items-center min-vh-100 py-8 py-md-11">
+          <div class="col-12 process">
+            <div class="row align-items-center justify-content-between mb-8 mb-md-11">
+              <div class="col-12 col-md-6">
+
+                <!-- Preheading -->
+                <h6 class="text-uppercase fw-bold">
+                  So Why?
+                </h6>
+
+                <!-- Heading -->
+                <h2>
+                  Why use us for your special project?
+                </h2>
+
+                <!-- Text -->
+                <p class="lead text-muted mb-6 mb-md-0">
+                   Here are 7 reasons you just have to consider our services
+                </p>
+
+              </div>
+              <div class="col-12 col-md-6 col-xl-5">
+
+                <div class="row gx-0">
+                  <div class="col-4">
+
+                    <!-- Image -->
+                    <div class="w-150 mt-9 p-1 bg-white shadow-lg" data-aos="fade-up" data-aos-delay="100">
+                      <img src="assets/img/portfolio/aerial/home_aerial_08.jpg" class="img-fluid" alt="...">
+                    </div>
+
+                  </div>
+                  <div class="col-4">
+
+                    <!-- Image -->
+                    <div class="w-150 p-1 bg-white shadow-lg" data-aos="fade-up">
+                      <img src="assets/img/portfolio/aerial/home_aerial_09.jpg" class="img-fluid" alt="...">
+                    </div>
+
+                  </div>
+                  <div class="col-4 position-relative">
+
+                    <!-- Image -->
+                    <div class="w-150 mt-11 float-end p-1 bg-white shadow-lg" data-aos="fade-up" data-aos-delay="150">
+                      <img src="assets/img/portfolio/aerial/home_aerial_10.jpg" class="img-fluid" alt="...">
+                    </div>
+
+                  </div>
+                </div> <!-- / .row -->
+
+              </div>
+            </div> <!-- / .row -->
+            <div class="row">
+              <!--Reason 1-->
+              <div class="col-12 col-md-4">
+                <div class="row">
+                  <div class="col-auto col-md-12">
+
+                    <!-- Step -->
+                    <div class="row gx-0 align-items-center mb-md-5">
+                      <div class="col-auto">
+
+                        <a href="#!" class="btn btn-sm btn-rounded-circle btn-gray-400 disabled opacity-1">
+                          <span>1</span>
+                        </a>
+
+                      </div>
+  
+                    </div> <!-- / .row -->
+
+                  </div>
+                  <div class="col col-md-12 ms-n5 ms-md-0">
+
+                    <!-- Heading -->
+                    <h3>
+                      Gain a Better perspective -
+                    </h3>
+
+                    <!-- Text -->
+                    <p class="text-muted fw-bold mb-6 mb-md-0">
+                      of your property before hearing it from someone else: Our Drones can capture images from different angles and heights that are not possible with traditional photography methods. This allows for a better perspective of the property and its surroundings.                    </p>
+
+                  </div>
+                </div> <!-- / .row -->
+              </div>
+              <!--Reason 2-->
+              <div class="col-12 col-md-4">
+                <div class="row">
+                  <div class="col-auto col-md-12">
+
+                    <!-- Step -->
+                    <div class="row gx-0 align-items-center mb-md-5">
+                      <div class="col-auto">
+
+                        <a href="#!" class="btn btn-sm btn-rounded-circle btn-gray-400 disabled opacity-1">
+                          <span>2</span>
+                        </a>
+
+                      </div>
+  
+                    </div> <!-- / .row -->
+
+                  </div>
+                  <div class="col col-md-12 ms-n5 ms-md-0">
+
+                    <!-- Heading -->
+                    <h3>
+                      Our images and videos are Cost-effective -
+                    </h3>
+
+                    <!-- Text -->
+                    <p class="text-muted fw-bold mb-6 mb-md-0">
+                      way to make repair decisions, promote, or sell your property: Drones are more cost-effective than traditional aerial photography methods such as helicopters or planes.
+                    </p>
+
+                  </div>
+                </div> <!-- / .row -->
+              </div>
+              <!--Reason 3-->
+              <div class="col-12 col-md-4">
+                <div class="row">
+                  <div class="col-auto col-md-12">
+
+                    <!-- Step -->
+                    <div class="row gx-0 align-items-center mb-md-5">
+                      <div class="col-auto">
+
+                        <a href="#!" class="btn btn-sm btn-rounded-circle btn-gray-400 disabled opacity-1">
+                          <span>3</span>
+                        </a>
+
+                      </div>
+                    </div> <!-- / .row -->
+
+                  </div>
+                  <div class="col col-md-12 ms-n5 ms-md-0">
+
+                    <!-- Heading -->
+                    <h3>
+                      We use Time-saving -
+                    </h3>
+
+                    <!-- Text -->
+                    <p class="text-muted fw-bold mb-0">
+                      technique collecting pictures of your property from any angle: Drones can capture images quickly and efficiently, saving time compared to traditional photography methods.                    </p>
+
+                  </div>
+                </div> <!-- / .row -->
+              </div>
+              <!--Reason 4-->
+              <div class="col-12 col-md-4">
+                <div class="row">
+                  <div class="col-auto col-md-12">
+
+                    <!-- Step -->
+                    <div class="row gx-0 align-items-center mb-md-5">
+                      <div class="col-auto">
+
+                        <a href="#!" class="btn btn-sm btn-rounded-circle btn-gray-400 disabled opacity-1">
+                          <span>4</span>
+                        </a>
+
+                      </div>
+  
+                    </div> <!-- / .row -->
+
+                  </div>
+                  <div class="col col-md-12 ms-n5 ms-md-0">
+
+                    <!-- Heading -->
+                    <h3>
+                      If you are marketing your property, you will gain an improved marketing -
+                    </h3>
+
+                    <!-- Text -->
+                    <p class="text-muted fw-bold mb-6 mb-md-0">
+                      advantage in this competitive seller-Buyer market: Aerial photographs can help improve marketing efforts by providing a unique perspective of the property.                    </p>
+
+                  </div>
+                </div> <!-- / .row -->
+              </div>
+              <!--Reason 5-->
+              <div class="col-12 col-md-4">
+                <div class="row">
+                  <div class="col-auto col-md-12">
+
+                    <!-- Step -->
+                    <div class="row gx-0 align-items-center mb-md-5">
+                      <div class="col-auto">
+
+                        <a href="#!" class="btn btn-sm btn-rounded-circle btn-gray-400 disabled opacity-1">
+                          <span>5</span>
+                        </a>
+
+                      </div>
+  
+                    </div> <!-- / .row -->
+
+                  </div>
+                  <div class="col col-md-12 ms-n5 ms-md-0">
+
+                    <!-- Heading -->
+                    <h3>
+                      Use of our drones improve your safety
+                    </h3>
+
+                    <!-- Text -->
+                    <p class="text-muted fw-bold mb-6 mb-md-0">
+                      no injuries from ladders on attempted roof climbing: Drones can be used to inspect roofs and other hard-to-reach areas without putting people in danger.                    </p>
+
+                  </div>
+                </div> <!-- / .row -->
+              </div>
+              <!--Reason 6-->
+              <div class="col-12 col-md-4">
+                <div class="row">
+                  <div class="col-auto col-md-12">
+
+                    <!-- Step -->
+                    <div class="row gx-0 align-items-center mb-md-5">
+                      <div class="col-auto">
+
+                        <a href="#!" class="btn btn-sm btn-rounded-circle btn-gray-400 disabled opacity-1">
+                          <span>6</span>
+                        </a>
+
+                      </div>
+ 
+                    </div> <!-- / .row -->
+
+                  </div>
+                  <div class="col col-md-12 ms-n5 ms-md-0">
+
+                    <!-- Heading -->
+                    <h3>
+                      Increase your property value
+                    </h3>
+
+                    <!-- Text -->
+                    <p class="text-muted fw-bold mb-6 mb-md-0">
+                      with our many angled 4k pictures and videos: Aerial photographs can help increase the perceived value of a property by showcasing its unique features and surroundings.                    </p>
+
+                  </div>
+                </div> <!-- / .row -->
+              </div>
+              <!--Reason 7-->
+              <div class="col-12 col-md-4">
+                <div class="row">
+                  <div class="col-auto col-md-12">
+
+                    <!-- Step -->
+                    <div class="row gx-0 align-items-center mb-md-5">
+                      <div class="col-auto">
+
+                        <a href="#!" class="btn btn-sm btn-rounded-circle btn-gray-400 disabled opacity-1">
+                          <span>7</span>
+                        </a>
+
+                      </div>
+
+                    </div> <!-- / .row -->
+
+                  </div>
+                  <div class="col col-md-12 ms-n5 ms-md-0">
+
+                    <!-- Heading -->
+                    <h3>
+                      Help you make better decisions
+                    </h3>
+
+                    <!-- Text -->
+                    <p class="text-muted fw-bold mb-6 mb-md-0">
+                      Aerial photographs can help sellers and buyers make better decisions by providing a more complete picture of the property and its surroundings.                    </p>
+
+                  </div>
+                </div> <!-- / .row -->
+              </div>
+            </div> <!-- / .row -->
+          </div>
+        </div>
+      </div> <!-- / .container -->
+    </section>
+
+    <!-- IMAGE -->
+    <section class="min-vh-100" data-jarallax data-speed=".8" style="background-image: url(assets/img/portfolio/aerial/home_aerial_05.jpg)"></section>
+
+    <!-- SHAPE -->
+    <div class="position-relative">
+      <div class="shape shape-bottom shape-fluid-x text-light">
+        <svg viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 48h2880V0h-720C1442.5 52 720 0 720 0H0v48z" fill="currentColor"/></svg>      </div>
+    </div>
+
+    <!-- RELATED -->
+    <section class="pt-7 pt-md-10 bg-light">
+      <div class="container">
+        <div class="row align-items-center mb-5">
+          <div class="col-12 col-md">
+
+            <!-- Heading -->
+            <h3 class="mb-0">
+              Related Work
+            </h3>
+
+            <!-- Text -->
+            <p class="mb-0 text-muted">
+              See more of our work!
+            </p>
+
+          </div>
+          <div class="col-12 col-md-auto">
+
+            <!-- Button -->
+            <a href="./portfolio-grid-rows.html" class="btn btn-sm btn-outline-gray-300 d-none d-md-inline">
+              View all
+            </a>
+
+          </div>
+        </div> <!-- / .row -->
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-4 d-flex">
+
+            <!-- Card -->
+            <a class="card mb-6 mb-lg-0 shadow-light-lg" href="#!">
+
+              <!-- Image -->
+              <div class="card-zoom">
+                <img class="card-img-top" src="assets/img/portfolio/aerial/home_aerial_13.jpg" alt="...">
+              </div>
+
+              <!-- Body -->
+              <div class="card-body">
+
+                <!-- Shape -->
+                <div class="shape shape-bottom-100 shape-fluid-x text-white">
+                  <svg viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 48h2880V0h-720C1442.5 52 720 0 720 0H0v48z" fill="currentColor"/></svg>                </div>
+
+                <!-- Preheading -->
+                <h6 class="text-uppercase mb-1 text-muted">Real Estate Photography</h6>
+
+                <!-- Heading -->
+                <h4 class="mb-0">Curology Campaign</h4>
+
+              </div>
+
+            </a>
+
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 d-flex">
+
+            <!-- Card -->
+            <a class="card mb-6 mb-lg-0 shadow-light-lg" href="#!">
+
+              <!-- Image -->
+              <div class="card-zoom">
+                <img class="card-img-top" src="assets/img/portfolio/aerial/home_aerial_14.jpg" alt="...">
+              </div>
+
+              <!-- Body -->
+              <div class="card-body">
+
+                <!-- Shape -->
+                <div class="shape shape-bottom-100 shape-fluid-x text-white">
+                  <svg viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 48h2880V0h-720C1442.5 52 720 0 720 0H0v48z" fill="currentColor"/></svg>                </div>
+
+                <!-- Preheading -->
+                <h6 class="text-uppercase mb-1 text-muted">Real Estate Photography</h6>
+
+                <!-- Heading -->
+                <h4 class="mb-0">Honest Packaging</h4>
+
+              </div>
+
+            </a>
+
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 d-flex">
+
+            <!-- Card -->
+            <a class="card d-md-none d-lg-flex shadow-light-lg" href="#!">
+
+              <!-- Image -->
+              <div class="card-zoom">
+                <img class="card-img-top" src="assets/img/portfolio/aerial/home_aerial_15.jpg" alt="...">
+              </div>
+
+              <!-- Body -->
+              <div class="card-body">
+
+                <!-- Shape -->
+                <div class="shape shape-bottom-100 shape-fluid-x text-white">
+                  <svg viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 48h2880V0h-720C1442.5 52 720 0 720 0H0v48z" fill="currentColor"/></svg>                </div>
+
+                <!-- Preheading -->
+                <h6 class="text-uppercase mb-1 text-muted">Roof Inspection</h6>
+
+                <!-- Heading -->
+                <h4 class="mb-0">Doodle Pad</h4>
+
+              </div>
+
+            </a>
+
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </section>
+
+    <!-- CTA -->
+    <!-- FORM -->
+    <section class="pt-8 pt-md-11 pb-8 pb-md-14 bg-light" style="padding-bottom: 0px !important;">
+      <div class="container py-6 py-md-8 border-top border-bottom border-gray-300">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-10 col-lg-8 text-center">
+
+            <!-- Heading -->
+            <h2 class="fw-bold">
+              Are you ready, because we are!
+            </h2>
+
+            <!-- Text -->
+            <p class="fs-lg text-muted mb-7 mb-md-9">
+              Submit a request and we'll get back to you as soon as possible, prepared and ready to get started on your project!
+            </p>
+
+          </div>
+        </div> <!-- / .row -->
+
+        <div class="row justify-content-center">
+          <div class="col-12">
+
+            <!-- Form -->
+            <form>
+              <div class="row">
+                <div class="col-12 col-md-4">
+                  <div class="form-group mb-5">
+
+                    <!-- Label -->
+                    <label class="form-label" for="contactName">
+                      Full name
+                    </label>
+
+                    <!-- Input -->
+                    <input class="form-control" id="contactName" type="text" placeholder="Full name">
+
+                  </div>
+                </div>
+                <div class="col-12 col-md-4">
+                  <div class="form-group mb-5">
+
+                    <!-- Label -->
+                    <label class="form-label" for="contactEmail">
+                      Email
+                    </label>
+
+                    <!-- Input -->
+                    <input class="form-control" id="contactEmail" type="email" placeholder="hello@domain.com">
+
+                  </div>
+                </div>
+                <div class="col-12 col-md-4">
+                  <div class="form-group mb-5">
+
+                    <!-- Label -->
+                    <label class="form-label" for="contactPhone">
+                      Phone number
+                    </label>
+
+                    <!-- Input -->
+                    <input class="form-control" id="contactPhone" type="tel" placeholder="(999)-999-999">
+
+                  </div>
+                </div>
+              </div> <!-- / .row -->
+              <div class="row">
+                <div class="col-12">
+                  <div class="form-group mb-7 mb-md-9">
+
+                    <!-- Label -->
+                    <label class="form-label" for="contactMessage">
+                      What can we help you with?
+                    </label>
+
+                    <!-- Input -->
+                    <textarea class="form-control" id="contactMessage" rows="5" placeholder="Tell us what we can help you with!"></textarea>
+
+                  </div>
+                </div>
+              </div> <!-- / .row -->
+              <div class="row justify-content-center">
+                <div class="col-auto">
+
+                  <!-- Submit -->
+                  <button type="submit" class="btn btn-primary lift" onclick="sendEmail(); reset(); return false;">
+                    Submit request
+                  </button>
+
+                </div>
+              </div> <!-- / .row -->
+            </form>
+
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="py-8 py-md-11 bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-4 col-lg-3">
+    
+            <!-- Brand -->
+            <img src="./assets/img/Grab_Logo_Black.svg" alt="..." class="footer-brand img-fluid mb-2">
+    
+            <!-- Text -->
+            <p class="text-gray-700 mb-2">
+              Elevate Your Perspective.
+            </p>
+    
+            <!-- Social -->
+            <ul class="list-unstyled list-inline list-social mb-6 mb-md-0">
+              <li class="list-inline-item list-social-item me-3">
+                <a href="#!" class="text-decoration-none">
+                  <img src="./assets/img/icons/social/instagram.svg" class="list-social-icon" alt="...">
+                </a>
+              </li>
+              <li class="list-inline-item list-social-item me-3">
+                <a href="#!" class="text-decoration-none">
+                  <img src="./assets/img/icons/social/facebook.svg" class="list-social-icon" alt="...">
+                </a>
+              </li>
+              <li class="list-inline-item list-social-item me-3">
+                <a href="#!" class="text-decoration-none">
+                  <img src="./assets/img/icons/social/twitter.svg" class="list-social-icon" alt="...">
+                </a>
+              </li>
+              <li class="list-inline-item list-social-item">
+                <a href="#!" class="text-decoration-none">
+                  <img src="./assets/img/icons/social/pinterest.svg" class="list-social-icon" alt="...">
+                </a>
+              </li>
+            </ul>
+    
+          </div>
+          <div class="col-6 col-md-4 col-lg-2">
+    
+            <!-- Heading -->
+            <h6 class="fw-bold text-uppercase text-gray-700">
+              PAGES
+            </h6>
+    
+            <!-- List -->
+            <ul class="list-unstyled text-muted mb-6 mb-md-8 mb-lg-0">
+              <li class="mb-3">
+                <a href="./portfolio-grid-rows.html" class="text-reset">
+                  Portfolio
+                </a>
+              </li>
+              <li class="mb-3">
+                <a href="./help-center.html" class="text-reset">
+                  Services
+                </a>
+              </li>
+              <li class="mb-3">
+                <a href="./about.html" class="text-reset">
+                  About Us
+                </a>
+              </li>
+              <li class="mb-3">
+                <a href="./contact-alt.html" class="text-reset">
+                  Contact
+                </a>
+              </li>
+              <li>
+                <a href="#!" class="text-reset">
+                  Blog
+                </a>
+              </li>
+            </ul>
+    
+          </div>
+          <div class="col-6 col-md-4 col-lg-2">
+    
+            <!-- Heading -->
+            <h6 class="fw-bold text-uppercase text-gray-700">
+              Educational Resources
+            </h6>
+    
+            <!-- List -->
+            <ul class="list-unstyled text-muted mb-6 mb-md-8 mb-lg-0">
+              <li class="mb-3">
+                <a href="#!" class="text-reset">
+                  About Aerial Photography
+                </a>
+              </li>
+              <li class="mb-3">
+                <a href="#!" class="text-reset">
+                  How To Prepare
+                </a>
+              </li>
+              <li class="mb-3">
+                <a href="#!" class="text-reset">
+                  Benefits of using drones in real estate
+                </a>
+              </li>
+              <li>
+                <a href="#!" class="text-reset">
+                  FAQs
+                </a>
+              </li>
+            </ul>
+    
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </footer>
+
+    <!-- JAVASCRIPT -->
+    <!-- Map JS -->
+    <script src='https://api.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.js'></script>
+    
+    <!-- Vendor JS -->
+    <script src="./assets/js/vendor.bundle.js"></script>
+    
+    <!-- Theme JS -->
+    <script src="./assets/js/theme.bundle.js"></script>
+
+    <script src="https://smtpjs.com/v3/smtp.js">
+    </script>
+    <script> function sendEmail(){
+    Email.send({
+    SecureToken : "5cd7cb4f-22b1-4ce7-b1ae-39f3d5338ec4",
+    To : 'aeroguardian@modernaerialdronephotography.com',
+    From : 'inquiry@modernaerialdronephotography.com',
+    Subject : "New Contact Form Enquiry",
+    Body : "Name: "+ document.getElementById("contactName").value
+            + "<br> Email: " + document.getElementById("contactEmail").value
+            + "<br> Phone no: " + document.getElementById("contactPhone").value
+            + "<br> Message: " + document.getElementById("contactMessage").value
+          }).then(message => alert("Form Submitted, Thank you!"));      
+}
+    </script>
+  </body>
+</html>
